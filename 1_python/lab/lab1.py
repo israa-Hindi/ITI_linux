@@ -1,0 +1,6 @@
+Name=input("pl Enter your Name\n")
+Age=int(input("then your Age\n"))
+faculty=input("and your faculty pl\n")
+print("\nHi %s" %(Name))
+print("your age is %d" %(Age))
+print("your faculty is %s" %(faculty))

@@ -1,5 +1,9 @@
 import tkinter as tk
 
+def fun() : 
+    print("isro")
+
+
 # Create a new Tkinter window
 win = tk.Tk()
 
@@ -8,7 +12,7 @@ win.geometry('100x200')
 label = tk.Label(win, text="  isro  ")
 label.pack()
 
-B  =tk.Button(win , text = "LOL",command=win.destroy)
+B  =tk.Button(win , text = "LOL",command=fun)
 B.pack(side = tk.TOP)
 
 BB  =tk.Button(win , text = "LOL",command=win.destroy)
